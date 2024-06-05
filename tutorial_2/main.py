@@ -1,7 +1,6 @@
 from textwrap import dedent
 
 from crewai import Crew
-from langchain_community.tools import DuckDuckGoSearchRun
 
 from agents import CustomAgents
 from tasks import CustomTasks

@@ -42,6 +42,10 @@ To get started, follow these simple steps:
 
 ### Prerequisites
 
+- Python 3.8 or higher
+- Basic understanding of Python
+- OpenAI API Key (Sign up & obtain [here](https://platform.openai.com/api-keys))
+
 Setting up OpenAI's API Key.
 
 - Create a .env file and populate:

@@ -24,14 +24,8 @@ class CustomCrew:
         research_task = tasks.research_task(research_agent)
         review_task = tasks.review_task(review_agent)
 
-        # Define your custom crew here
-        return Crew(
-            agents=[research_agent, review_agent],
-            tasks=[research_task, review_task],
-            verbose=True,
-        ).kickoff()
+        # TODO: Define your custom crew here & kickoff the crew
 
-        result = crew.kickoff()
         return result
 
 
