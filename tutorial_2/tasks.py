@@ -29,4 +29,6 @@ class CustomTasks:
             expected_output="""A refined and edited content on the topic with clarity, engagement, grammatical 
             accuracy and relevance. Sources provided and referenced.""",
             agent=agent,
+            context=[self.research_task],
+            # ↑ specify which task's output should be used as context for subsequent tasks
         )

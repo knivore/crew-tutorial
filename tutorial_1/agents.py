@@ -22,6 +22,7 @@ class CustomAgents:
             goal=dedent(f"""Define agent 1 goal here"""),
             allow_delegation=False,
             verbose=True,
+            # ↑ Whether the agent execution should be in verbose mode
             llm=self.OpenAIGPT35,
         )
 
@@ -33,5 +34,6 @@ class CustomAgents:
             goal=dedent(f"""Define agent 2 goal here"""),
             allow_delegation=False,
             verbose=True,
+            # ↑ Whether the agent execution should be in verbose mode
             llm=self.OpenAIGPT35,
         )

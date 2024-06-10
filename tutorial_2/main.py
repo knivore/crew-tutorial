@@ -30,8 +30,7 @@ class CustomCrew:
             verbose=True,
         )
 
-        result = crew.kickoff()
-        return result
+        return crew.kickoff()
 
 
 # This is the main function that you will use to run your custom crew.

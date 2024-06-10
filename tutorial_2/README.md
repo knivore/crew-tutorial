@@ -1,6 +1,6 @@
 <div align="center">
-<h1> Tutorial 1 </h1>
-<h3>Crafting your first CrewAI Agent & Task</h3>
+<h1> Tutorial 2 </h1>
+<h3>Understanding the relationship between Agent, Task & Tool</h3>
 </div>
 
 
